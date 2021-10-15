@@ -2,7 +2,7 @@
     <!-- Base application theme. -->
     <style name="Theme.Kotlininfran_gabokchi2021_1018120TwiceclassNote" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
 
-<!--         🍀130 기본 테마 변경- windowNoTitleBar -->
+<!--         🍀130 트와이스 사진삽입 , 기본 테마 변경- windowNoTitleBar -->
         <item name="windowNoTitle">true</item>
 
         <!-- Primary brand color. -->

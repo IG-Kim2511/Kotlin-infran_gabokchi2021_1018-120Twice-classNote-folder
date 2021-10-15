@@ -11,8 +11,16 @@
     -manifests - AndroidManifest.xml 파일 체크
     -->
 
+<!--    🍀140 테두리 둥글게 - CardView, Margin, Padding
+-->
     <androidx.constraintlayout.utils.widget.ImageFilterView
+
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:layout_margin="20dp"
         android:src="@drawable/splash"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>
