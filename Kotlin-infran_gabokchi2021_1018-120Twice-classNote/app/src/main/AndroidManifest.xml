@@ -9,27 +9,25 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Kotlininfran_gabokchi2021_1018120TwiceclassNote">
-
-
-
-        <!-- 🍀120 트와이스 앱 만들기 소개 - 강의소개 및 스플래시(Splash 화면)
-            - splash화면 첫화면으로 하기-->
-
+        <activity
+            android:name=".ImageInsideActivity"
+            android:exported="false" />
+        <!--
+         🍀120 트와이스 앱 만들기 소개 - 강의소개 및 스플래시(Splash 화면)
+            - splash화면 첫화면으로 하기
+        -->
         <activity
             android:name=".SplashActivity"
-            android:exported="true" >
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
         <activity
             android:name=".MainActivity"
-            android:exported="true"
-            >
-        </activity>
+            android:exported="true"></activity>
     </application>
 
 </manifest>
