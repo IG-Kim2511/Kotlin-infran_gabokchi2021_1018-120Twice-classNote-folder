@@ -16,7 +16,7 @@ class ImageInsideActivity : AppCompatActivity() {
 
 //        🍀150 16:00
 //        MainActivity.kt에서 보낸 data, value=1일때
-//        activity_image_inside.xml의 src=member_1로 설정함 
+//        activity_image_inside.xml의 src=member_1로 설정함
 //        (MainActivity.kt에서 보낸 data, value=2일때
 //        activity_image_inside.xml의 src=member_2로 설정함)
 
