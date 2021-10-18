@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    tools:context=".ImageInsideActivity">
+
+<!--        🍀150 화면간 데이터 전달 - Intent putExtra -->
+<!--    🍀150 match_parent : parent 화면의 전체크기를 따라간다는 뜻
+    parent 화면이 200dp이면, 200dp보다 커도 200dp를 따라감
+-->
+
+    <!-- 🍀150 4:25, src-id-click  -->
+<!--           🍀150 16:00  kt파일에서 보낸 데이터에 연동해서 해당 사진 보옂주기-->
+    <androidx.constraintlayout.utils.widget.ImageFilterView
+        android:id="@+id/memberImageArea"
+        android:src="@drawable/member_1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

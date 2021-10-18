@@ -29,6 +29,8 @@ CardView, Radius="50dp" : radius 쓰려면 CardVidw로 감싸야 함
 wrap_content : cardview 안의 내용을 감싸서 적용시킨다는 뜻
 cardview안에 margin적용한 예
 -->
+
+        <!--🍀150-20 src-id-click -->
         <androidx.cardview.widget.CardView
             android:layout_margin="10dp"
             android:layout_width="wrap_content"
@@ -36,6 +38,7 @@ cardview안에 margin적용한 예
             app:cardCornerRadius="50dp">
 
             <ImageView
+                android:id="@+id/member1"
                 android:scaleType="fitXY"
                 android:layout_width="120dp"
                 android:layout_height="150dp"
@@ -52,6 +55,7 @@ cardview안에 margin적용한 예
             app:cardCornerRadius="50dp">
 
             <ImageView
+                android:id="@+id/member2"
                 android:scaleType="fitXY"
                 android:layout_width="120dp"
                 android:layout_height="150dp"
@@ -66,6 +70,7 @@ cardview안에 margin적용한 예
             app:cardCornerRadius="50dp">
 
             <ImageView
+                android:id="@+id/member3"
                 android:scaleType="fitXY"
                 android:layout_width="120dp"
                 android:layout_height="150dp"
@@ -81,6 +86,7 @@ cardview안에 margin적용한 예
             android:layout_height="200dp">
 
             <androidx.cardview.widget.CardView
+                android:id="@+id/member4"
                 android:layout_margin="10dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -95,6 +101,7 @@ cardview안에 margin적용한 예
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
+                android:id="@+id/member5"
                 android:layout_margin="10dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -109,6 +116,7 @@ cardview안에 margin적용한 예
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
+                android:id="@+id/member6"
                 android:layout_margin="10dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -130,6 +138,7 @@ cardview안에 margin적용한 예
         android:layout_height="200dp">
 
         <androidx.cardview.widget.CardView
+            android:id="@+id/member7"
             android:layout_margin="10dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -144,6 +153,7 @@ cardview안에 margin적용한 예
         </androidx.cardview.widget.CardView>
 
         <androidx.cardview.widget.CardView
+            android:id="@+id/member8"
             android:layout_margin="10dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -158,6 +168,7 @@ cardview안에 margin적용한 예
         </androidx.cardview.widget.CardView>
 
         <androidx.cardview.widget.CardView
+            android:id="@+id/member9"
             android:layout_margin="10dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
